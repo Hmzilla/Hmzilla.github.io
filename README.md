@@ -1,5 +1,5 @@
 <h1 align="center">Hi 👋, I'm Hamza Hassan</h1>
-<h3 align="center">This is My Webssite's Files</h3>
+<h3 align="center">This is My Website's Files</h3>
 
 <p align="left"> <img src="https://komarev.com/ghpvc/?username=hmzweb&label=Profile%20views&color=0e75b6&style=flat" alt="hmzweb" /> </p>
 
