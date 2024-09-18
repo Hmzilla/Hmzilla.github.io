@@ -1,0 +1,82 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    width: 80%;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
+
+h1 {
+    text-align: center;
+    color: #333;
+}
+
+.item {
+    display: block;
+    padding: 10px;
+    margin: 10px 0;
+    background-color: #e2e2e2;
+    border-radius: 4px;
+    text-decoration: none;
+    color: #333;
+    font-size: 16px;
+    font-weight: bold;
+    transition: background-color 0.3s;
+    display: flex;
+    align-items: center;
+}
+
+.item:hover {
+    background-color: #ccc;
+}
+
+.item .icon {
+    margin-right: 10px;
+    font-size: 20px;
+}
+
+.folder .icon {
+    color: #000000; /* لون مميز للمجلدات */
+}
+
+.file .icon {
+    color: #000000; /* لون مميز للملفات */
+}
+
+.back-button {
+    display: block;
+    padding: 10px;
+    margin-bottom: 20px;
+    background-color: #000000;
+    color: #fff;
+    text-decoration: none;
+    font-size: 16px;
+    font-weight: bold;
+    border-radius: 4px;
+    text-align: center;
+    transition: background-color 0.3s;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.back-button:hover {
+    background-color: #ff0000;
+}
+
+.back-button .fa-home {
+    margin-right: 8px;
+}
+
+footer{
+    text-align: center;
+    margin-top: 40px;
+}
