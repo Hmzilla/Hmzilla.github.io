@@ -16,6 +16,6 @@
 <a href="https://www.youtube.com/c/hamzahassan-apca" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/youtube.svg" alt="hamzahassan-apca" height="30" width="40" /></a>
 </p>
 
-<p><img align="left" src="https://github-readme-stats.vercel.app/api/top-langs?username=hamzahassan2&show_icons=true&locale=en&layout=compact" alt="hamzahassan2" /></p>
+<p><img align="left" src="https://github-readme-stats.vercel.app/api/top-langs?username=HmzWeb&show_icons=true&locale=en&layout=compact" alt="hamzahassan2" /></p>
 
-<p>&nbsp;<img align="center" src="https://github-readme-stats.vercel.app/api?username=hamzahassan2&show_icons=true&locale=en" alt="HmzWeb" /></p>
+<p>&nbsp;<img align="center" src="https://github-readme-stats.vercel.app/api?username=HmzWeb&show_icons=true&locale=en" alt="HmzWeb" /></p>
