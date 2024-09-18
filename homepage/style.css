@@ -28,6 +28,7 @@ nav {
 .nav-left {
     display: flex;
     gap: 15px; /* المسافة بين العناصر */
+    
 }
 
 .nav-item {
@@ -96,6 +97,7 @@ nav {
     margin: 0;
 }
 
+
 .menu-toggle .bar {
     display: block;
     width: 25px;
@@ -103,6 +105,7 @@ nav {
     background: white;
     margin: 5px auto;
     transition: all 0.3s;
+    
 }
 
 .homepage {
@@ -136,14 +139,21 @@ footer a{
         z-index: 1000;
         margin-top: 10px;
         text-align: center;
+      
     }
 
     .nav-left.active {
         display: flex;
+        margin-top: 35px;
+        padding-bottom: 10px;
+        
     }
 
     .menu-toggle {
         display: block;
+        
     }
+    
 }
+
 
