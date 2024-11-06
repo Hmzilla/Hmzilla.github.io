@@ -3,7 +3,6 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="refresh" content="0;url=/error=page-not-found">
     <title>Page Not Found - 404</title>
     <style>
         body{
@@ -69,17 +68,39 @@
 
 
         }
+        @media(max-width:800px){
+
+            .error{
+            background-color: rgb(237, 237, 237);
+            border: 1px solid;
+            margin: 10px;
+            padding: 10px;
+            margin-top: 10em;
+            padding-bottom: 2em;
+        }
+
+        .title{
+            border: 4px solid black;
+            padding: 5px;
+           font-size: 20px;
+            color: rgb(0, 0, 0);
+        }  
+        
+        a{
+            font-size: 15px;
+        }
+        }
             
     </style>
 </head>
 <body>
     <h1><a href="/" class="title">https://HmzWeb.GitHub.io</a></h1>
     <div class="error">
-        <h1>Page Not Found - 404</h1>
+        <h1>Page Not Found</h1>
         <p>عذراً، الصفحة التي تحاول الوصول إليها غير موجودة.</p>
         <p>Sorry, the page you are looking for cannot be found.</p>
         <br>
-        <a href="/">العودة إلى الصفحة الرئيسية | Back to Home</a>
+        <a href="/">  الصفحة الرئيسية | Back to Home</a>
         
     </div>
 </body>

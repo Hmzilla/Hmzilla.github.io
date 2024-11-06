@@ -1,4 +1,5 @@
 # HUXP Open Source Blog License
+# مفتوح المصدر HUXP ترخيص مدونة
 # English
 ## Usage Rights:
 - You are allowed to use the source code in its entirety, provided you comply with these terms.
@@ -12,8 +13,6 @@
 ## Disclaimer and No Warranty:
 I do not assume any responsibility for damages resulting from the use of the code.
 There is no warranty for the code's functionality.
-
-# ترخيص موقع مفتوح المصدر HUXP 
 # عربي
 ## حقوق الاستخدام:
 - يحق لك استعمال الأكواد المصدرية بشكل كامل عند التوافق مع هذه الشروط.
@@ -27,5 +26,4 @@ There is no warranty for the code's functionality.
 ## إخلاء المسؤولية وعدم الضمان:
 لا أتحمل مسؤولية أي أضرار ناجمة عن سوء استعمال الكود.
 لا يوجد ضمان على عمل الكود.
-# Start Date 2024/05/30
 # Last Update 2024/09/06
