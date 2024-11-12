@@ -1,0 +1,146 @@
+/* إعدادات عامة */
+body {
+    background-color: white;
+}
+footer{
+    text-align: center;
+}
+
+a {
+    color: rgb(255, 0, 0);
+    transition: 0.2s;
+    cursor: pointer;
+}
+
+div1{
+    text-align: center;
+}
+
+/* إعدادات خاصة بالروابط */
+.link {
+    border: 4px solid rgb(0, 0, 0);
+    padding: 10px;
+    color: rgb(0, 0, 0);
+    background-color: white;
+    transition: 0.2s;
+    font-size: 2em;
+    padding-left: 2em;
+    padding-right: 2em;
+    text-decoration: none;
+    border-radius: 20px;
+}
+
+.link:hover {
+    border: 4px solid rgb(144, 0, 0);
+    padding-left: 1.5em;
+    padding-right: 1.5em;
+    color: rgb(113, 0, 0);
+    background-color: white;
+    transition: 0.2s;
+}
+
+/* الخطوط الكبيرة */
+.title  {
+    border: 4px solid black;
+    padding: 5px;
+    color: rgb(0, 0, 0);
+    text-decoration: underline;
+    background-color: white;
+    border-radius: 0;
+    font-size: 50px;
+    text-align: center;
+    
+}
+
+.bigtitle {
+    font-size: 20em;
+}
+
+/* إعدادات مخصصة للنصوص العربية */
+.arabic {
+    text-align: right;
+    direction: rtl;
+    font-family: 'Arial', sans-serif;
+    font-size: 1.2em;
+}
+
+/* إعدادات مخصصة للنصوص الإنجليزية */
+.english {
+    text-align: left;
+    direction: ltr;
+    font-family: 'Arial', sans-serif;
+    font-size: 1.2em;
+}
+
+/* إعدادات الوسائط للشاشات الأكبر والأصغر */
+@media (min-width: 2000px) {
+    .bigtitle {
+        font-size: 20em;
+    }
+    .title {
+        font-size: 70px;
+    }
+}
+
+@media (max-width: 900px) {
+    .bigtitle {
+        font-size: 15em;
+    }
+    .title {
+        font-size: 40px;
+    }
+}
+
+@media (max-width: 700px) {
+    .bigtitle {
+        font-size: 14em;
+    }
+}
+
+@media (max-width: 600px) {
+    .bigtitle {
+        font-size: 8em;
+    }
+    .title {
+        font-size: 28px;
+    }
+    .link {
+        margin-bottom: 20px;
+        font-size: 1.5em;
+    }
+}
+
+@media (max-width: 480px) {
+    .bigtitle {
+        font-size: 9em;
+    }
+}
+
+@media (max-width: 400px) {
+    .bigtitle {
+        font-size: 7.5em;
+    }
+    .link {
+        font-size: 1.3em;
+        margin: 10px 0;
+        padding: 12px 20px;
+    }
+}
+
+@media (max-width: 390px) {
+    .bigtitle {
+        font-size: 7em;
+    }
+    .title {
+        font-size: 20px;
+    }
+}
+
+@media (max-width: 320px) {
+    .bigtitle {
+        font-size: 6.5em;
+    }
+    .title {
+        font-size: 10px;
+    }
+}

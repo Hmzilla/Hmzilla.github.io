@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/HUXP/style.css"/>
+    <link rel="icon" href="/media/root/icon.png"/>
+    <title>HmzWeb - HomePage</title>
+</head>
+<body>
+    <div1>    <h1><a href="/home/" class="title">https://HmzWeb.GitHub.io</a></h1>
+    </div1>
+
+    <!-- إضافة قسم لتحميل محتوى Markdown وعرضه -->
+    <div id="markdown-content"></div>
+
+</body>
+
+<footer>
+    <hr>
+    <h3>All rights reserved © 2024 By Hamza</h3>
+    <p>Copyright information: Unless otherwise specified, all text and images on this webpage are licensed under the <a href="https://hmzweb.github.io/HUXP/BQ3">HUXP BQ3 License</a></p>
+    <p><a href="https://github.com/HmzWeb/HmzWeb.github.io" target="_blank">Source code on GitHub</a></p>
+</footer>
+
+<!-- تضمين مكتبة Showdown لتحويل Markdown إلى HTML -->
+<script src="https://cdn.jsdelivr.net/npm/showdown@1.9.1/dist/showdown.min.js"></script>
+<script>
+    // جلب محتوى Markdown وتحويله إلى HTML
+    fetch('/readme.md')
+        .then(response => response.text())
+        .then(text => {
+            const converter = new showdown.Converter();
+            const htmlContent = converter.makeHtml(text);
+            document.getElementById('markdown-content').innerHTML = htmlContent;
+        })
+        .catch(error => console.error('Error loading Markdown:', error));
+</script>
+
+</html>
