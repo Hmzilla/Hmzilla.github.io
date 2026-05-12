@@ -122,3 +122,33 @@ hr {
         font-size: 10
     }
 }
+
+
+
+/* الصفحة الرئيسية */
+
+.home-box{
+    text-align: center;
+    margin-top: 30px;
+}
+
+/* تحسين توزيع الأزرار */
+
+.link{
+    display: inline-block;
+    margin: 10px;
+}
+
+/* تحسين العنوان الرئيسي */
+
+.bigtitle{
+    margin-bottom: 20px;
+    color: black;
+}
+
+/* تحسين النصوص */
+
+h2{
+    font-family: Arial, sans-serif;
+    font-weight: normal;
+}
